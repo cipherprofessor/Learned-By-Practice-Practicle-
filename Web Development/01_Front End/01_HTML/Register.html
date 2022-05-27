@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Page</title>
+    </head>
+    <body>
+<div>
+        <!-- Use Get Not Post -->
+
+        <form method="get">
+            <span>Name : <input type="text" name="firstname"><br><br></span> 
+            Last  Name : <input type="text" name="lastname"><br><br>
+            Email : <input type="email" required name="email"><br><br>
+            Password : <input type="password" min="6" name="password"> <br><br>
+            Birthday : <input type="date" name="birthdate" ><br><br>
+            Gender :<br>
+            <input type="radio" name="Gender" value="Male"> Male<br>
+            <input type="radio" name="Gender" value="Female"> Female<br>
+            <input type="radio" name="Gender" value="Other"> Other<br><br>
+
+            Pets : <br>
+            <input type="checkbox" name="cats"> Cats<br>
+            <input type="checkbox" name="dog"> Dog<br>
+            <input type="checkbox" name="rabbit" > Rabbit<br>
+            <input type="checkbox" name="horse"> Horse<br><br>
+
+            Cars :<br>
+            <select name="cars">
+                <option value="Lyken HyperSports" name="Lyken HyperSports"> Lyken HyperSports </option>
+                <option value="Lamborgini Venano" name="Lamborgini Venano"> Lamborgini Venano</option>
+                <option value="Ferrari" name="Ferrari"> Ferrari </option>
+
+            </select><br><br>
+        </div>
+
+            <input type="submit" value="Register"><br><br>
+            <input type="reset" value="Hata Dou">
+        </form>
+    </body>
+</html>
