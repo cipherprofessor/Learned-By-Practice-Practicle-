@@ -1,0 +1,61 @@
+/* Selector{
+    Property:value;
+
+} */
+
+
+
+body{
+    background-image: url(background2.jpg);
+    background-size: cover;
+}
+
+h2{
+    color: #31B500;
+    text-align: center;
+    border: 6px solid rgba(212, 15, 0,0.5);
+    cursor: pointer;
+}
+
+p{
+    color: #59ed4c;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.webtext{
+        border: 3px dashed green;
+      
+}
+
+.active{
+    color: red;
+    
+}
+
+#div1{
+    background: rgba(0,255,0,0.2);
+}
+
+#div2{
+    background: rgba(0,0,255,0.2);
+}
+
+h3{
+  text-decoration: underline;
+  text-transform: capitalize;
+  line-height: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: 'Dancing Script', cursive;
+}
+
+img{
+    float: left;
+}
