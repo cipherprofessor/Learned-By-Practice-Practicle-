@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    border-bottom: 5px solid pink;
+    border-right: 5px solid pink;
+    border-left: 5px solid pink;
+    border-top: 5px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
+    
+}
+   
