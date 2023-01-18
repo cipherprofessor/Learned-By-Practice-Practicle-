@@ -11,6 +11,7 @@ int main() {
    Sadiya
     */
    int i =3;
+   
    scanf(%d,&i);
    return 0;
 }
